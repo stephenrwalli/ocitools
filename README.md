@@ -57,7 +57,7 @@ Testing OCI runtimes
 ```
 $ make
 $ sudo make install
-$ sudo ./test_runtime.sh -r runc
+$ sudo env "PATH=$PATH" ./test_runtime.sh -r runc
 -----------------------------------------------------------------------------------
 VALIDATING RUNTIME: runc
 -----------------------------------------------------------------------------------
